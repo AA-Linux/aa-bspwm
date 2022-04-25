@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-# --------------------------------------+
-# Bspwm configuration file              |
-# @Author: Alpha Vylly (AlphaLawless)   |
-# (C) 2020-2021 Aditya Shakya (GNU-GPL3)|
-# --------------------------------------+
 
 # --- Environment --->
 export PATH="${PATH}:$HOME/.config/bspwm/bin"
@@ -28,7 +23,6 @@ colors() {
 }
 colors
 
-# xrandr Multi Monitors
 # --- Workspaces --->
 workspaces() {
     name=1
